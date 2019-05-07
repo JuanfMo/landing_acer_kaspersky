@@ -1,0 +1,66 @@
+.some{
+    color: black;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.center{
+    text-align: center;
+}
+
+.section-landing{
+    background-image: url("./images/bg.jpg");
+}
+body {
+    margin: 0;
+}
+
+.row{
+    display: block; 
+}
+
+ul.f {
+    list-style-image: url("./images/money.png");
+}
+
+.text-left{
+    text-align: left;
+}
+.line-hr{
+  color: #016e59;
+  border: 6px solid;
+  border-top: 1px solid black; 
+}
+
+.flex{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+.logo-acer-kaspersky{
+    width: 50%;
+}
+
+.color-green{
+    color: #006e59;
+}
+
+.background-footer{
+    background-color: #016e59;
+}
+
+.color-green-footer{
+    color: #016e59;
+}
+.color-green-letter{
+    color: #006e5a;
+    font-weight: bold;
+}
