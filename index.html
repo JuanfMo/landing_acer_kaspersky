@@ -15,24 +15,27 @@
             <hr size="20" class="line-hr">
         </div>
     </header>
-    <section class="section-landing">
-        <div class="container">
+    <article class="bg-landing">
+      <section class="section-landing">
+        <div>
             <div class="row">
                 <div class="text-center">
                     <h1 class="color-green-letter text-center">Disfruta tu vida digital de manera segura</h1>
                     <img src="./images/internet-security.png" alt="Seguridad en internet" class="img-responsive">
                 </div>
-                <div class="flex">
+                <div class="flex" style="margin: 0 25px;">
                     <div>
                         <ul class="f">
-                            <li class="enjoy">Disfruta de la seguridad al momento de comprar en linea con Safe Money.</li>
-                            <li>Estas protegido contra virus, hackers, software malicioso, ransomware y otra amenazas.</li>
+                            <li class= "flex"> <img src="./images/money.png" alt=""> Disfruta de la seguridad al momento de comprar en linea con Safe Money.</li>
+                            <br>
+                            <li class="flex"> <img src="./images/check.png" alt="">Estas protegido contra virus, hackers, software malicioso, ransomware y otra amenazas.</li>
                         </ul>
                     </div>
                     <div>
                         <ul class="s">
-                            <li>Tu privacidad e información personal esta segura con el Kaspersky Secure Connection.</li>
-                            <li>Impide que controlen sus hábitos de navegación en la Web y capturen su información personal.</li>
+                            <li class="flex"> <img src="./images/secure.png" alt="">Tu privacidad e información personal esta segura con el Kaspersky Secure Connection.</li>
+                            <br>
+                            <li class="flex"> <img src="./images/web.png" alt="">Impide que controlen sus hábitos de navegación en la Web y capturen su información personal.</li>
                         </ul>
                     </div>
                 </div>
@@ -40,49 +43,56 @@
         </div>
         <div class="center form">
             <h1 class="color-green-letter">Completa el formulario para recibir tu licencia</h1>
-            <p>ingresa tus datos personales y el código que recibiste en la tarjeta <br>
+            <p>Ingresa tus datos personales y el código que recibiste en la tarjeta <br>
                al momento de comprar tu ACER. Recibiras en tu correo en un lapso <br> 
                de 5 días el código de activación y los pasos para descargar tu licencia. </p>
-            <form action="">
-                <div class="form-group flex">
-                    <label for="">*Email</label>
-                    <input type="text" class="form-control" required>
-                </div>
-                <div class="form-group flex">
-                    <label for="">*Código de verificación</label>
-                    <input type="text" class="form-control" required>
-                    <input type="text" class="form-control" required>
-                    <input type="text" class="form-control" required>
-                    <input type="text" class="form-control" required>
-                </div>
-                <div class="form-group flex">
-                    <label for="">*Nombre Completo</label>
-                    <input type="text" class="form-control" required>
-                </div>
-                <div class="form-group flex">
-                    <label for="">*Tipo Documento</label>
-                    <input list="type" name="document-type" class="form-control" required>
-                    <datalist id="type">
-                        <option value="Cédula de Ciudadanía">
-                        <option value="Cédula de Extranjería">           
-                    </datalist>
-                </div>
-                <div class="form-group flex">
-                    <label for="">*Número de Documento</label>
-                    <input type="number" class="form-control" required>
-                </div>
-                <div class="form-group flex">
-                    <label for="">Télefono</label>
-                    <input type="number" class="form-control">
-                </div>
-
-                <div class="action flex">
+            <div class="container-form">
+                <form action="">
+                    <div class="form-group flex">
+                        <label for="">*Email</label>
+                        <input type="text" class="form-control" required>
+                    </div>
+                    <div class="form-group flex">
+                        <label for="" style="width: 125%;">*Código de validación</label>
+                        <div class="validation flex">
+                            <input type="text" class="form-control" required>
+                            <input type="text" class="form-control" required>
+                            <input type="text" class="form-control" required>
+                            <input type="text" class="form-control" required>
+                        </div>
+                    </div>
+                    <div class="form-group flex">
+                        <label for="">*Nombre Completo</label>
+                        <input type="text" class="form-control" required>
+                    </div>
+                    <div class="form-group flex">
+                        <label for="">*Tipo Documento</label>
+                        <br>
+                        <input list="type" name="document-type" class="form-control" required>
+                        <datalist id="type">
+                            <option value="Cédula de Ciudadanía">
+                            <option value="Cédula de Extranjería">           
+                        </datalist>
+                    </div>
+                    <div class="form-group flex">
+                        <label for="">*Número de Documento</label>
+                        <input type="number" class="form-control" required>
+                    </div>
+                    <div class="form-group flex">
+                        <label for="">Télefono Celular</label>
+                        <input type="number" class="form-control">
+                    </div>
+                    <span class="text-center" style="font-size:12px;">los campos marcados con * son obligatorios</span>
+                </form>
+            </div>
+            <br><br><br>
+            <div class="action flex">
                     <input type="submit" name="" id="">
-                    <input type="checkbox" id="cbox" value="second_checkbox" required> <label for="cbox">Acepto terminos y condiciones de manejo de datos</label>
+                    <input type="checkbox"  id="cbox" value="second_checkbox" class="form-control check" required> <label style="width: auto;padding:0;" for="cbox">Acepto terminos y condiciones de manejo de datos</label>
                 </div>
-                <div class="center">
+                <div class="container-treatment">
 
-                <p class="tratamiento-de-datos center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                <p class="tratamiento-de-datos">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
                     when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
                     It has survived not only five centuries, but also the leap into electronic typesetting, 
@@ -90,21 +100,19 @@
                     sheets containing Lorem Ipsum passages, and more recently with desktop publishing software 
                     like Aldus PageMaker including versions of Lorem Ipsum.</p>
                 </div>
-            </form>
         </div>
-    </section>
+     </section>
+    </article>
     <footer class="background-footer">
         <div class="flex">
-            <div class="">
+            <div class="info-footer">
                 <a href="#">Consulta las condiciones y restricciones de la promoción.</a>
+                <br> <br>
+                <span>&copy; 2019 Acer Inc. Todos los derechos reservados. Nada garantiza una protección completa, por lo tanto tenga cuidado en linea.</span>
                 <br>
-                <span> 2019 Acer Inc. Todos los derechos reservados. Nada garantiza una protección completa, por lo tanto tenga cuidado en linea.</span>
-                <br>
-                <span> 2019 AO Kaspersky Lab. Todos los derechos reservados.</span>
+                <span>&copy; 2019 AO Kaspersky Lab. Todos los derechos reservados.</span>
             </div>
-            <div>
-                <img src="./images/logo-white.png" alt="logo-blanco-kaspersky">
-            </div>
+            <img src="./images/logo-white.png" alt="logo-blanco-kaspersky" class="img-responsive logo-white-kaspersky">
         </div>
     </footer>
 </body>
