@@ -218,7 +218,7 @@ input[type="submit"]{
     color: #006e5a;
     font-weight: bold;
     font-size: 30px;
-    padding-top: 22px;
+    padding: 22px 10px 0px 10px;
     letter-spacing: -2px;
 }
 
@@ -265,8 +265,6 @@ input[type="submit"]{
 
 } 
  
-  
-/* Para 480px */  
 @media only screen and (max-width: 500px)  {  
     .logo-acer-kaspersky {
         width: 100%;
@@ -340,4 +338,14 @@ input[type="submit"]{
         margin-top: 13%;
         margin-left: 7%;
     }
+    
+    .row.img-responsive{
+        max-width: 90%;
+    }
 }  
+
+@media only screen and (max-width: 340px)  { 
+    .row.img-responsive{
+        width: 90%;
+    }
+}
