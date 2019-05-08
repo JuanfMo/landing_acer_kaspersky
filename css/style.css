@@ -40,12 +40,10 @@ label{
     letter-spacing: -1px;
 }
 
-
 .validation input{
     width: 18%;
     margin: 0 10px;
 }
-
 
 ul.f,
 ul.s {
@@ -99,7 +97,8 @@ border-radius: 0 !important;}
   border-top: 1px solid black; 
 }
 
-.flex{
+.flex,
+.flex-form{
     height: 100%;
     padding: 0;
     margin: 0;
@@ -170,3 +169,93 @@ a{
     width: 40%;
     margin-right: 12%;
 }
+.ul-mobile{
+    display: none;
+}
+
+.ul-desktop{
+    display: flex;
+}
+
+@media only screen and (max-width: 500px) and (orientation: landscape){  
+    .ul-desktop{
+        display: flex;
+    }
+
+    .ul-mobile{
+        display: none;
+    }
+} 
+ 
+  
+/* Para 480px */  
+@media only screen and (max-width: 500px)  {  
+    .logo-acer-kaspersky {
+        width: 100%;
+    }
+
+    .ul-desktop{
+        display: none;
+    }
+
+    .ul-mobile{
+        display: block;
+        margin-top: 10px;
+    }
+
+    .ul-mobile ul{
+        padding-right: 9%;
+    }
+
+    .container-form{
+        margin: 0 0%;
+        margin-bottom: -45px;
+    }
+
+    label{
+        padding-left: 10px;
+        font-weight: bold;
+    }
+
+    .span-mobile{
+        display: none;
+    }
+
+    .flex-form{
+        display: block !important;
+    }
+
+    .form-group input{
+        margin-left: 12px;
+        width: 92%;
+    }
+
+    .form-control.check {
+        width: 9%;
+        margin: 0 3%;
+    }
+
+    input[type="submit"] {
+        font-size: 30px;
+        margin-left: 32px;
+    }
+
+    .container-treatment {
+        margin: initial;
+    }
+
+    .info-footer {
+        font-size: 15px;
+        letter-spacing: -1px;
+        font-weight: bolder;
+        text-align: justify;
+        padding-left: 10%;
+        padding-right: 28%;
+    }
+
+    .logo-white-kaspersky {
+        width: 84%;
+        margin-top: 13%;
+        margin-left: 7%;
+    }
+}  
