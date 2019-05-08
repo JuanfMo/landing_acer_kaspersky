@@ -87,9 +87,10 @@ a{
 
 ul.f,
 ul.s {
-list-style-type: none;
-line-height: 1;
-width: 99%;
+    list-style-type: none;
+    line-height: 1;
+    width: 88%;
+    padding-left: 15px;
 }
 
 li{
@@ -107,7 +108,7 @@ background: u30pxrl('./images/web.png') no-repeat left top;
 }
 
 input[type="submit"]{
-    font-size: 37px;
+    font-size: 32px;
     padding: 0 21px;
     font-weight: bolder;
     color: white;
@@ -135,9 +136,9 @@ input[type="submit"]{
 }
 
 .container-form {
-    margin: 0 17%;
-    padding: 12px 6%;
     background-color: #f2f2f2;
+    margin: 0px 19%;
+    padding: 11px 3%;
 }
 .text-left{
     text-align: left;
@@ -153,16 +154,6 @@ input[type="submit"]{
   margin-bottom: 0;
   border-top: 1px solid black; 
 }
-
-.ul-mobile{
-    display: none;
-}
-
-.ul-desktop{
-    display: flex;
-    margin: 0 25px;
-}
-
 
 .flex,
 .flex-form{
@@ -194,6 +185,17 @@ input[type="submit"]{
 .color-green{
     color: #006e59;
 }
+
+.ul-mobile{
+    display: none;
+}
+
+.ul-desktop{
+    display: flex;
+    margin: 0 25px;
+    margin-left: 7%;
+}
+
 
 .background-footer{
     background-color: #016e59;
@@ -229,6 +231,14 @@ input[type="submit"]{
     width: 125%;
 }
 
+.tratamiento-de-datos{
+    text-align: justify;
+}
+
+.span-desktop{
+    font-size:11px;
+}
+
 .info-footer{
     margin-top: 25px;
     font-size: 13px;
@@ -252,6 +262,7 @@ input[type="submit"]{
     .ul-mobile{
         display: none;
     }
+
 } 
  
   
@@ -290,7 +301,6 @@ input[type="submit"]{
 
     .span-desktop{
         display: none;
-        font-size:12px;
     }
 
     .flex-form{
