@@ -339,13 +339,13 @@ input[type="submit"]{
         margin-left: 7%;
     }
     
-    .row.img-responsive{
+    .row .img-responsive{
         max-width: 90%;
     }
 }  
 
 @media only screen and (max-width: 340px)  { 
-    .row.img-responsive{
+    .row .img-responsive{
         width: 90%;
     }
 }
